@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Jenna Cleckler — Free Health Insurance Quote | Amarillo, TX</title>
+  <meta name="description" content="Get a free, no-obligation health insurance quote from Jenna Cleckler. Personalized PPO plans for families, self-employed, and small businesses in Amarillo, TX and 33 states nationwide.">
+  <meta name="keywords" content="free health insurance quote, Amarillo insurance agent, Texas Panhandle health coverage, PPO plans, self-employed insurance, small business health insurance, affordable health plans, Canyon TX, Borger TX, Pampa TX">
+  <meta name="author" content="Jenna Cleckler Insurance">
+  <meta property="og:title" content="Get a Free Health Insurance Quote — Jenna Cleckler Insurance">
+  <meta property="og:description" content="Free consultations, personalized guidance, no obligation. Affordable PPO health plans for families, self-employed, and small businesses across 33 states.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jennaclecklerinsurance.com/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav">
+    <div class="nav__overlay"></div>
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-icon">JC</span>
+        Jenna Cleckler
+      </a>
+      <button class="nav__hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="plans.html" class="nav__link">Plans</a>
+        <a href="resources.html" class="nav__link">Resources</a>
+        <a href="contact.html" class="nav__cta">Get a Free Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HEADER ========== -->
+  <section class="page-header">
+    <div class="container">
+      <div class="fade-up">
+        <span class="section-label">Get Started</span>
+        <h1>Let's Find Your Perfect Plan</h1>
+        <p>Free consultations, personalized guidance, and zero obligation. Tell us a little about yourself and Jenna will craft a plan comparison tailored to your needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MAIN CONTACT CONTENT ========== -->
+  <section class="section" style="background: var(--color-cream);">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr; gap: var(--space-2xl);" class="contact-grid">
+
+        <!-- LEFT COLUMN: Lead Capture Form -->
+        <div class="fade-up" style="order: 1;">
+          <div style="background: var(--color-white); border-radius: var(--radius-lg); padding: var(--space-2xl); box-shadow: var(--shadow-lg); border: 1px solid var(--color-border-light);">
+            <h2 style="margin-bottom: var(--space-sm); font-size: clamp(1.4rem, 2.5vw, 1.8rem);">Request Your Free Quote</h2>
+            <p style="color: var(--color-text-light); margin-bottom: var(--space-2xl); font-size: 0.95rem;">Fill out the form below and Jenna will personally review your needs and get back to you within 24 hours.</p>
+
+            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form">
+              <input type="hidden" name="form-name" value="contact">
+              <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+              <div class="form-group">
+                <label for="full-name" class="form-label">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" class="form-input" placeholder="Your full name" required>
+              </div>
+
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg);" class="form-row">
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone Number *</label>
+                  <input type="tel" id="phone" name="phone" class="form-input" placeholder="(555) 123-4567" required>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address *</label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="you@email.com" required>
+                </div>
+              </div>
+
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg);" class="form-row">
+                <div class="form-group">
+                  <label for="household-size" class="form-label">Household Size</label>
+                  <select id="household-size" name="household-size" class="form-select">
+                    <option value="" disabled selected>Select...</option>
+                    <option value="1">Just me</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5+">5+</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="employment" class="form-label">Employment Status</label>
+                  <select id="employment" name="employment" class="form-select">
+                    <option value="" disabled selected>Select...</option>
+                    <option value="self-employed">Self-Employed</option>
+                    <option value="small-business-owner">Small Business Owner</option>
+                    <option value="independent-contractor">Independent Contractor</option>
+                    <option value="currently-employed">Currently Employed</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-time" class="form-label">Best Time to Contact</label>
+                <select id="contact-time" name="contact-time" class="form-select">
+                  <option value="" disabled selected>Select...</option>
+                  <option value="morning">Morning (8am &ndash; 12pm)</option>
+                  <option value="afternoon">Afternoon (12pm &ndash; 5pm)</option>
+                  <option value="evening">Evening (5pm &ndash; 8pm)</option>
+                  <option value="anytime">Anytime</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message / Notes <span style="font-weight: 400; color: var(--color-text-muted);">(optional)</span></label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your coverage needs, questions, or anything we should know..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--large" style="width: 100%; justify-content: center; font-size: 1.05rem;">Request My Free Quote</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: Contact Info & Trust Builders -->
+        <div style="order: 2; display: flex; flex-direction: column; gap: var(--space-xl);">
+
+          <!-- What to Expect -->
+          <div class="fade-up" style="background: var(--color-white); border-radius: var(--radius-lg); padding: var(--space-2xl); box-shadow: var(--shadow-md); border: 1px solid var(--color-border-light);">
+            <h3 style="margin-bottom: var(--space-xl); font-size: 1.25rem;">What to Expect</h3>
+            <div style="display: flex; flex-direction: column; gap: var(--space-lg);">
+              <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
+                <span style="width: 32px; height: 32px; border-radius: 50%; background: var(--color-accent); color: var(--color-white); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">1</span>
+                <div>
+                  <strong style="color: var(--color-primary); display: block; margin-bottom: 2px;">Submit your info</strong>
+                  <span style="color: var(--color-text-light); font-size: 0.9rem;">Fill out the quick form with your basic details.</span>
+                </div>
+              </div>
+              <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
+                <span style="width: 32px; height: 32px; border-radius: 50%; background: var(--color-accent); color: var(--color-white); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">2</span>
+                <div>
+                  <strong style="color: var(--color-primary); display: block; margin-bottom: 2px;">Jenna reviews your needs</strong>
+                  <span style="color: var(--color-text-light); font-size: 0.9rem;">She'll personally look at your situation and goals.</span>
+                </div>
+              </div>
+              <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
+                <span style="width: 32px; height: 32px; border-radius: 50%; background: var(--color-accent); color: var(--color-white); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">3</span>
+                <div>
+                  <strong style="color: var(--color-primary); display: block; margin-bottom: 2px;">Receive a custom plan comparison</strong>
+                  <span style="color: var(--color-text-light); font-size: 0.9rem;">Side-by-side options tailored to your budget and needs.</span>
+                </div>
+              </div>
+              <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
+                <span style="width: 32px; height: 32px; border-radius: 50%; background: var(--color-accent); color: var(--color-white); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0;">4</span>
+                <div>
+                  <strong style="color: var(--color-primary); display: block; margin-bottom: 2px;">Choose what's right for you</strong>
+                  <span style="color: var(--color-text-light); font-size: 0.9rem;">No pressure, no obligation &mdash; the decision is always yours.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Why Work With Jenna -->
+          <div class="fade-up" style="background: var(--color-white); border-radius: var(--radius-lg); padding: var(--space-2xl); box-shadow: var(--shadow-md); border: 1px solid var(--color-border-light);">
+            <h3 style="margin-bottom: var(--space-xl); font-size: 1.25rem;">Why Work With Jenna</h3>
+            <ul style="display: flex; flex-direction: column; gap: var(--space-md);">
+              <li style="display: flex; gap: var(--space-sm); align-items: baseline; color: var(--color-text); font-size: 0.95rem;">
+                <span style="color: var(--color-success); font-size: 1.1rem; flex-shrink: 0;">&#10003;</span>
+                Free, no-obligation consultations
+              </li>
+              <li style="display: flex; gap: var(--space-sm); align-items: baseline; color: var(--color-text); font-size: 0.95rem;">
+                <span style="color: var(--color-success); font-size: 1.1rem; flex-shrink: 0;">&#10003;</span>
+                One-on-one personal guidance
+              </li>
+              <li style="display: flex; gap: var(--space-sm); align-items: baseline; color: var(--color-text); font-size: 0.95rem;">
+                <span style="color: var(--color-success); font-size: 1.1rem; flex-shrink: 0;">&#10003;</span>
+                Your dedicated advisor for the life of your policy
+              </li>
+              <li style="display: flex; gap: var(--space-sm); align-items: baseline; color: var(--color-text); font-size: 0.95rem;">
+                <span style="color: var(--color-success); font-size: 1.1rem; flex-shrink: 0;">&#10003;</span>
+                Help navigating claims and questions
+              </li>
+              <li style="display: flex; gap: var(--space-sm); align-items: baseline; color: var(--color-text); font-size: 0.95rem;">
+                <span style="color: var(--color-success); font-size: 1.1rem; flex-shrink: 0;">&#10003;</span>
+                Even if her plans aren't a fit, she'll connect you with the right options
+              </li>
+            </ul>
+          </div>
+
+          <!-- Referral Banner -->
+          <div class="referral-banner fade-up">
+            <div>
+              <h3 style="margin-bottom: var(--space-sm);">Earn $100 Per Referral</h3>
+              <p>Know someone who needs better coverage? Earn a $100 referral bonus for every application submitted.</p>
+            </div>
+          </div>
+
+          <!-- Contact Details -->
+          <div class="fade-up" style="background: var(--color-primary); border-radius: var(--radius-lg); padding: var(--space-2xl); color: var(--color-cream);">
+            <h3 style="color: var(--color-cream); margin-bottom: var(--space-lg); font-size: 1.25rem;">Get in Touch</h3>
+            <div style="display: flex; flex-direction: column; gap: var(--space-md);">
+              <p style="display: flex; align-items: center; gap: var(--space-sm); color: rgba(250,247,242,0.85); font-size: 0.95rem;">
+                <span style="font-size: 1.1rem;">&#x1F4CD;</span> Amarillo, TX
+              </p>
+              <p style="display: flex; align-items: center; gap: var(--space-sm); color: rgba(250,247,242,0.85); font-size: 0.95rem;">
+                <span style="font-size: 1.1rem;">&#x1F30E;</span> Serving 33 states nationwide
+              </p>
+              <p style="display: flex; align-items: center; gap: var(--space-sm); color: rgba(250,247,242,0.85); font-size: 0.95rem;">
+                <span style="font-size: 1.1rem;">&#x23F0;</span> Response within 24 hours
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TRUST STRIP ========== -->
+  <section class="section benefits-strip" style="background: var(--color-white);">
+    <div class="container">
+      <div class="benefits-strip__row fade-up">
+        <span class="benefit-pill">Free Consultations</span>
+        <span class="benefit-pill">No Obligation</span>
+        <span class="benefit-pill">Personalized Plans</span>
+        <span class="benefit-pill">33 States</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICE AREA ========== -->
+  <section class="section" style="background: var(--color-cream);">
+    <div class="container">
+      <div class="section__header fade-up" style="text-align: center; max-width: 700px; margin: 0 auto var(--space-2xl);">
+        <span class="section-label" style="justify-content: center;">Coverage Area</span>
+        <h2 class="section__title">Based in Amarillo, TX &mdash; Serving 33 States</h2>
+        <p class="section__subtitle">Whether you're in the Texas Panhandle or across the country, Jenna can help you find the right plan.</p>
+      </div>
+
+      <!-- Local Areas -->
+      <div class="fade-up" style="text-align: center; margin-bottom: var(--space-2xl);">
+        <h4 style="margin-bottom: var(--space-lg); font-size: 1.05rem;">Texas Panhandle Communities We Serve</h4>
+        <div style="display: flex; flex-wrap: wrap; gap: var(--space-sm); justify-content: center;">
+          <span class="state-tag" style="font-size: 0.9rem; padding: 0.4rem 1rem;">Amarillo</span>
+          <span class="state-tag" style="font-size: 0.9rem; padding: 0.4rem 1rem;">Canyon</span>
+          <span class="state-tag" style="font-size: 0.9rem; padding: 0.4rem 1rem;">Borger</span>
+          <span class="state-tag" style="font-size: 0.9rem; padding: 0.4rem 1rem;">Pampa</span>
+          <span class="state-tag" style="font-size: 0.9rem; padding: 0.4rem 1rem;">Hereford</span>
+          <span class="state-tag" style="font-size: 0.9rem; padding: 0.4rem 1rem;">Dumas</span>
+          <span class="state-tag" style="font-size: 0.9rem; padding: 0.4rem 1rem;">Dalhart</span>
+        </div>
+      </div>
+
+      <!-- All 33 States -->
+      <div class="fade-up" style="text-align: center;">
+        <h4 style="margin-bottom: var(--space-lg); font-size: 1.05rem;">All 33 States We Cover</h4>
+        <div class="states-list" style="justify-content: center;">
+          <span class="state-tag">Alabama</span>
+          <span class="state-tag">Arizona</span>
+          <span class="state-tag">Arkansas</span>
+          <span class="state-tag">Florida</span>
+          <span class="state-tag">Georgia</span>
+          <span class="state-tag">Idaho</span>
+          <span class="state-tag">Illinois</span>
+          <span class="state-tag">Indiana</span>
+          <span class="state-tag">Iowa</span>
+          <span class="state-tag">Kansas</span>
+          <span class="state-tag">Kentucky</span>
+          <span class="state-tag">Louisiana</span>
+          <span class="state-tag">Michigan</span>
+          <span class="state-tag">Mississippi</span>
+          <span class="state-tag">Missouri</span>
+          <span class="state-tag">Montana</span>
+          <span class="state-tag">Nebraska</span>
+          <span class="state-tag">North Carolina</span>
+          <span class="state-tag">North Dakota</span>
+          <span class="state-tag">Ohio</span>
+          <span class="state-tag">Oklahoma</span>
+          <span class="state-tag">Pennsylvania</span>
+          <span class="state-tag">South Carolina</span>
+          <span class="state-tag">South Dakota</span>
+          <span class="state-tag">Tennessee</span>
+          <span class="state-tag">Texas</span>
+          <span class="state-tag">Utah</span>
+          <span class="state-tag">Virginia</span>
+          <span class="state-tag">West Virginia</span>
+          <span class="state-tag">Wisconsin</span>
+          <span class="state-tag">Wyoming</span>
+          <span class="state-tag">Nebraska</span>
+          <span class="state-tag">New Mexico</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo" style="color: var(--color-cream); margin-bottom: var(--space-sm); display: inline-flex;">
+            <span class="nav__logo-icon" style="background: var(--color-accent);">JC</span>
+            Jenna Cleckler
+          </a>
+          <p>Helping families, self-employed individuals, and small business owners find affordable, flexible health coverage in the Texas Panhandle and 33 states nationwide.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <a href="about.html" class="footer__link">About Jenna</a>
+          <a href="plans.html" class="footer__link">Plan Options</a>
+          <a href="resources.html" class="footer__link">Resources</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Resources</h4>
+          <a href="resources.html#ppo-vs-hmo" class="footer__link">PPO vs HMO</a>
+          <a href="resources.html#self-employed" class="footer__link">Self-Employed Coverage</a>
+          <a href="resources.html#marketplace-vs-private" class="footer__link">Marketplace vs Private</a>
+          <a href="resources.html#faq" class="footer__link">FAQ</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Get in Touch</h4>
+          <a href="contact.html" class="footer__link">Request a Free Quote</a>
+          <a href="contact.html" class="footer__link">Schedule a Call</a>
+          <p style="color: rgba(250,247,242,0.5); font-size: 0.85rem; margin-top: var(--space-md);">Serving Amarillo, Canyon, Borger, Pampa, Hereford, Dumas, Dalhart &amp; 33 states</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Jenna Cleckler Insurance. All rights reserved.</span>
+        <span>Licensed Insurance Agent &mdash; Amarillo, TX</span>
+      </div>
+      <p class="footer__disclaimer">Disclaimer: Plans described are private health insurance products and are not affiliated with or part of the Affordable Care Act marketplace. Coverage, benefits, and availability vary by state and individual eligibility. Plans are medically underwritten. This website is for informational purposes and does not constitute a guarantee of coverage.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" aria-label="Scroll to top">&#8593;</button>
+
+  <script src="js/main.js"></script>
+
+  <style>
+    /* Contact page responsive two-column layout */
+    @media (min-width: 768px) {
+      .contact-grid {
+        grid-template-columns: 3fr 2fr !important;
+      }
+    }
+
+    /* Stack form row fields on small screens */
+    @media (max-width: 580px) {
+      .form-row {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
+</body>
+</html>
