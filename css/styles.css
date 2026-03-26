@@ -775,6 +775,16 @@ p {
   line-height: 1.7;
 }
 
+/* Also style direct children for pages without __inner wrapper */
+.accordion-content > p,
+.accordion-content > ul,
+.accordion-content > div {
+  padding-bottom: var(--space-xl);
+  font-size: 1rem;
+  color: var(--color-text-light);
+  line-height: 1.7;
+}
+
 /* ============================================
    STEPS / PROCESS
    ============================================ */
