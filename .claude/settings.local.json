@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(grep -rn \"2025\" *.html)",
+      "Bash(taskkill //F //IM \"node.exe\")",
+      "WebSearch"
+    ]
+  }
+}
